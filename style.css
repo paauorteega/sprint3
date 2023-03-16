@@ -1,0 +1,326 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.li{
+    text-align: center;
+}
+.fila1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.menu_top1 ul li a{
+    color: gray;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu_top1 li{
+    list-style: none;
+}
+
+.menu_top1 ul{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 40px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.pequeño_logo{
+    width: 30px;
+}
+.barramenu{
+    border-right: 1px solid gray;
+    padding-right: 15px;
+}
+
+.menu_top2 ul{
+    display:flex ;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.logo{
+    padding: 0 50px 0 50px;
+    width: 310px;
+    margin-left: 180px;
+}
+.container{
+    margin: 0 auto;
+}
+
+.img_main{
+    background-image: url(images/poster.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.fila2{
+    display: flex;
+    border-bottom: 3px solid #fff10e;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.menu_top2 li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.menu_top2 ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.separador{
+    height: 250px;
+}
+
+.content{
+    background-color: #f3f2f2;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1300px;
+    justify-content: center;
+}
+
+.menu3 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu3 li{
+    background-color: #d5d5d5;
+    margin: 5px;
+    padding: 15px;
+}
+
+.menu3 ul li a{
+    text-decoration: none;
+    color: #0076ec;
+    width: 100%;
+}
+
+.menu3{
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.menu3 li:hover{
+    background-color: #0076ec;
+}
+
+.menu3 ul li a:hover{
+    color: #f3f2f2;
+}
+
+.fila4{
+    display: flex;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.fila4_title{
+    color: #0076ec;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+
+}
+
+.fila4 a{
+    color: #0076ec;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 30px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.fila4 a:hover{
+    background-color: #0076ec;
+    color: white;
+    text-decoration: underline;
+}
+
+.buton4{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #0076ec;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+    border: none;
+    margin-left: 30px;
+}
+.fichas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.ficha{
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+}
+
+.ficha img{
+    width: 100%;
+}
+
+.ficha h1{
+    font-size: 20px;
+    color: #0076ec;
+    margin: 10px 0 10px 0;
+}
+
+.horizontal{
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.fa-star{
+    color: #fff10e;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.icono{
+    color: #004987;
+}
+
+.menu5{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.menu5 ul li{
+    list-style: none;
+    margin: 20px;
+    text-decoration: none;
+    color: #808080;
+}
+
+.menu5 h2{
+    color: #004987;
+    margin-bottom: 10px;
+}
+
+.iconos i{
+    font-size: 60px;
+    margin: 30px;
+}
+
+.menu_top2 ul :hover{
+    box-sizing: border-box;
+    background-color: #fff10e;
+
+}
+/*APARTIR DE AQUI EL CSS DE LA PAGINA DE AVATAR*/
+.foto-ficha-avatar{
+    display: flex;
+    margin-right: 10px;
+}
+.foto-ficha-avatar img{
+    display: flex;
+    margin-right: 30px;
+}
+.datos-peli{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #d5d5d5;
+    padding-top: 40px;
+    
+}
+.datos-peli ul{
+    margin-left: 20px;
+}
+.datos-peli li{
+    margin: 0 10px 10px;
+}
+ul li{
+    list-style: none;
+}
+.Sinopsis{
+   color: gray;
+   margin-top: 10px;
+   width: 100%;
+   padding: 20px;
+   background-color: #d5d5d5;
+}
+.sino{
+    color: #004987;
+    padding-bottom: 5px;
+}
+.primeraparte{
+    background-color: #d5d5d5;
+    padding: 10px;
+}
+/*MENU DE ARRIBA DE AVATAR*/
+
+.menuav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    background-color: #d5d5d5;
+}
+
+.menuav li{
+    margin: 5px;
+    padding: 15px;
+}
+
+.menuav ul li a{
+    text-decoration: none;
+    color: gray;
+    width: 100%;
+}
+
+.menuav{
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.titleav{
+    background-color: white;
+    color: orange;
+    padding: 7px 200px 7px 200px;
+    
+}
